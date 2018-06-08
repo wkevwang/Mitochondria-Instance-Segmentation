@@ -48,6 +48,12 @@ A comparison of the prediction (right) with ground truth (left):
 ![Comparison](https://github.com/Megasonic988/Mitochondria-Instance-Segmentation/blob/master/Sample_Results/Image_1_Comparison.png)
 ![Comparison](https://github.com/Megasonic988/Mitochondria-Instance-Segmentation/blob/master/Sample_Results/Image_2_Comparison.png)
 
+As one can see, the model has trouble with
+* labelling one mitochondria as two mitochondria. The model thinks the internal lines within the mitochondria are actually the walls between two separate mitochondria
+* labelling two mitochondria as one mitochondria
+* identification of other elliptical objects as mitochondria
+* ignoring mitochondria
+
 More test images are available in [Sample Results](https://github.com/Megasonic988/Mitochondria-Instance-Segmentation/tree/master/Sample_Results).
 
 #### Discussion
