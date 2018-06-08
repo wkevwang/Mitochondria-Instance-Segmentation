@@ -39,6 +39,9 @@ I use [Matterport's Mask RCNN](https://github.com/matterport/Mask_RCNN) implemen
 
 I trained on a Nvidia P100 GPU on Google Cloud Platform. The training takes approximately 40 minutes.
 
+#### Tensorboard Visualization
+![tensorboard](https://github.com/Megasonic988/Mitochondria-Instance-Segmentation/blob/master/Sample_Results/tensorboard.png)
+
 ## Results
 The resulting model labels with astoundingly high success:
 ![Labelled image](https://github.com/Megasonic988/Mitochondria-Instance-Segmentation/blob/master/Sample_Results/Image_1_Output.png)
